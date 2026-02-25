@@ -21,10 +21,10 @@ public class SongListProcessorWindow : EditorWindow
     private Vector2 songListScroll;
     private Vector2 resultScroll;
 
-    [MenuItem("LGC/歌曲列表处理器")]
+    [MenuItem("LGC/LGC B站歌单工具")]
     public static void ShowWindow()
     {
-        var window = GetWindow<SongListProcessorWindow>("歌曲列表处理");
+        var window = GetWindow<SongListProcessorWindow>("LGC B站歌单工具");
         window.minSize = new Vector2(800, 650);
     }
 
