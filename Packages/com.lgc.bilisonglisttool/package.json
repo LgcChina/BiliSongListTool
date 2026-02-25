@@ -1,9 +1,10 @@
 {
   "name": "com.lgc.bilisonglisttool",
-  "displayName": "LGC B站歌单工具",
   "version": "1.0.0",
+  "displayName": "LGC B站歌单工具",
+  "description": "解析B站视频合集/收藏夹，快速生成YamaPlayer/VizVid/ProTv适配的歌曲播放列表文件",
   "unity": "2022.3",
-  "description": "用于解析B站视频合集/收藏夹，快速生成YamaPlayer/VizVid/ProTv适配的歌曲播放列表文件",
+  "keywords": ["VRChat", "Tool", "Unity", "bilibili", "B站", "歌单"],
   "author": {
     "name": "LgcChina",
     "url": "https://github.com/LgcChina"
@@ -11,23 +12,16 @@
   "vpmDependencies": {
     "com.vrchat.worlds": "3.x.x"
   },
-  "keywords": [ "VRChat", "video player", "Tool", "Unity" ],
-  "samples": [
-    {
-      "displayName": "示例场景与预设",
-      "description": "未包含示例场景与预设",
-      "path": "Samples~/QuickStart"
-    }
-  ],
+  "legacyFolders": {
+    "Assets\\LGC\\歌曲列表处理器": "a1b2c3d4-e5f6-4789-8abc-def1234567890"
+  },
   "migrations": {
     "1.0.0": {
-      "description": "删除Assets中手动导入的旧版B站歌单工具文件",
+      "description": "删除Assets中手动导入的旧版工具文件",
       "operations": [
         {
           "type": "delete",
-          "paths": [
-            "Assets/LGC/歌曲列表处理器/Editor"
-          ]
+          "paths": ["Assets/LGC/歌曲列表处理器/"]
         }
       ]
     }
