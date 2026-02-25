@@ -1,0 +1,22 @@
+{
+  "name": "com.lgc.bilisonglisttool",
+  "displayName": "LGC B站歌单工具",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "用于解析B站视频合集/收藏夹，快速生成YamaPlayer/VizVid/ProTv适配的歌曲播放列表文件",
+  "author": {
+    "name": "LgcChina",
+    "url": "https://github.com/LgcChina"
+  },
+  "vpmDependencies": {
+"com.vrchat.worlds": "3.x.x"
+  },
+  "keywords": [ "VRChat", "video player", "Tool", "Unity" ],
+  "samples": [
+    {
+      "displayName": "示例场景与预设",
+      "description": "未包含示例场景与预设",
+      "path": "Samples~/QuickStart"
+    }
+  ]
+}
